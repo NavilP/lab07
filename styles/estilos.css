@@ -1,0 +1,76 @@
+/*Importar fuente de Google: Six Caps*/
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+
+h1{
+    font-family: "Six Caps";
+    font-size: 3rem;
+}
+
+h2{
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+p{
+    font-family: "Cormorant Garamond", serif;
+}
+
+body{
+    background: url(../images/art-background4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    margin-right: 50rem;
+    margin-left: 10rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    background-color: white;
+    background-size: contain;
+}
+article{
+    margin-left: 10em;
+    margin-right: 45em;
+    margin-top: 5em;
+}
+
+article h2{
+    font-size: 1.25em;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+}
+
+article p{
+    font-size: 1.3em;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+    font-weight: bold;
+}
+
+.time{
+    color: white;
+    position: sticky;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: -6rem;
+    margin-left: 1rem;
+    margin-right: 15rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+
+}
+
+article footer{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 0.8em;
+    background-color: whitesmoke;
+    padding: 1.25rem;
+}
+
+footer a {
+    text-decoration: underline dotted;
+}
